@@ -1,0 +1,188 @@
+@import  url ( "https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap" );
+
+cơ thể {
+  background :  url (https://image.freepik.com/free-vector/gradient-dark-dynamic-lines-background_23-2148995950.jpg);
+  lề :  30 px  50 px ;
+  chiều cao dòng :  1,4 ;
+}
+
+
+/ * Biến CSS * /
+: root {
+  --primary :  # 141318 ;
+  --dark :  # f7f7f7 ;
+  --light :  # 2b2a2a ;
+  --shadow :  0  1 px  5 px  rgba ( 104 ,  104 ,  104 ,  0.8 );
+}
+
+. trình bao bọc {
+  hiển thị : lưới;
+  khoảng cách lưới :  20 px ;
+}
+
+html {
+  box-sizing : border-box;
+  font-family : Arial , Helvetica , sans-serif;
+  màu :  var ( --dark );
+}
+
+. main-nav  ul {
+  hiển thị : lưới;
+  khoảng cách lưới :  20 px ;
+  đệm :  0 ;
+  list-style : none;
+  lưới-mẫu-cột :  lặp lại ( 4 ,  1 fr );
+}
+
+@ -webkit-keyframes AnimationName {
+    0 % { background-position : 0 %  50 % }
+    50 % { background-position : 100 %  50 % }
+    100 % { background-position : 0 %  50 % }
+}
+@ -moz-keyframes AnimationName {
+    0 % { background-position : 0 %  50 % }
+    50 % { background-position : 100 %  50 % }
+    100 % { background-position : 0 %  50 % }
+}
+@ -o-keyframes AnimationName {
+    0 % { background-position : 0 %  50 % }
+    50 % { background-position : 100 %  50 % }
+    100 % { background-position : 0 %  50 % }
+}
+@keyframes AnimationName {
+    0 % { background-position : 0 %  50 % }
+    50 % { background-position : 100 %  50 % }
+    100 % { background-position : 0 %  50 % }
+}
+
+. main-nav  a : hover {
+  biến đổi :  scale ( 1.13 );
+    background :  linear-gradient ( 270 độ ,  # 9d0090 ,  # 34005d ,  # 0e005c ,  # 654cea ,  # 5f004b );
+    kích thước nền :  1000 %  1000 % ;
+
+    -webkit-animation : AnimationName 9 s dễ dàng vô hạn;
+    -moz-animation : AnimationName 9 s dễ dàng vô hạn;
+    -o-animation : AnimationName 9 s dễ dàng vô hạn;
+    hoạt hình : AnimationName 9 s dễ dàng vô hạn;
+}
+
+. main-nav  a {
+  nền :  var ( --primary );
+  hiển thị : khối;
+  văn bản-trang trí : không có;
+  đệm lót :  0,5 rem ;
+  text-align : center;
+  màu :  var ( --dark );
+  text-biến đổi : chữ hoa;
+  font-size :  1 rem ;
+  box-shadow :  var ( --shadow );
+  font-weight : bold;
+  font-family : Ngày mai , sans-serif;
+  -moz-border-radius :  10 px ;
+  -webkit-border-radius :  10 px ;
+  -ms-border-radius :  10 px ;
+  -o-border-radius :  10 px ;
+  bán kính đường viền :  10 px ;
+  chuyển tiếp :  0,2 s dễ dàng;
+}
+
+. thông tin {
+  hiển thị : khối;
+  hộp-bóng :  0  0  1 em  	# FF33FF ;
+  khoảng cách lưới :  30 px ;
+  lưới-mẫu-cột :  lặp lại ( 1 ,  1 fr );
+  đệm lót :  1 rem ;
+  nền :  # 111111 ;
+  -moz-border-radius :  10 px ;
+  -webkit-border-radius :  10 px ;
+  -ms-border-radius :  10 px ;
+  -o-border-radius :  10 px ;
+  bán kính đường viền :  10 px ;
+}
+
+. thông tin  h1 {
+  text-align : center;
+  font-family : Ngày mai , sans-serif;
+  text-biến đổi : chữ hoa;
+  text-shadow :  0  0  1 em  	# FF33FF ;
+}
+. thông tin . kích thước {
+  cỡ chữ :  1,5 rem ;
+  font-family : Ngày mai , sans-serif;
+  text-biến đổi : chữ hoa;
+  thụt lề văn bản :  20 px ;
+  text-shadow :  0  0  0,1 em  # ff0000 ;
+}
+. thông tin . size1 {
+  font-size :  1 rem ;
+  thụt lề văn bản :  20 px ;
+  font-family : Ngày mai , sans-serif;
+}
+. miễn phí {
+  nền : trắng;
+  màu sắc : đen;
+}
+
+footer {
+  margin-top :  2 rem ;
+  màu : trắng;
+  text-align : center;
+  padding :  0 rem  1,2 rem ;
+}
+
+@media ( chiều rộng tối đa :  700 px ) {
+  
+. main-nav  ul {
+    lưới-mẫu-cột :  1 fr ;
+  }
+. main-nav  ul {
+    lưới-mẫu-cột :  1 fr ;
+  }
+. thông tin {
+    lưới-mẫu-cột :  1 fr ;
+  }
+. thông tin . btn {
+    hiển thị : khối;
+    text-align : center;
+    margin : tự động;
+  }
+}
+
+. menu phụ {
+    hiển thị : không có;
+}
+. main-nav  ul  li : di chuột . menu phụ {
+  hiển thị : khối;
+  vị trí : tuyệt đối;
+  nền-màu : đen;
+  đệm :  2 px  2 px ;
+
+}
+. main-nav  ul  li : di chuột . menu phụ  ul {
+    / * display: khối; * /
+    hiển thị : khối;
+    lề :  4 px ;
+}
+. biểu tượng {
+  màu nền :  # 060220 ;
+
+}
+. logo  img {
+  chiều rộng :  50 px ;
+  chiều cao :  50 px ;
+  bán kính biên giới : 50 % ;
+ -moz-border-radius : 50 % ;
+ -webkit-border-radius : 50 % ;
+}
+© 2022 GitHub, Inc.
+Điều kiện
+Sự riêng tư
+Bảo vệ
+Trạng thái
+Docs
+Liên hệ với GitHub
+Định giá
+API
+Tập huấn
+Blog
+Về
